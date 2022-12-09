@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="wishlist.css">
+
+    <script src="jquery-2.1.4.js"></script>
+      <link rel="stylesheet" href="shop2.css">
+      <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <!-- fonts awesome link--->
+      <script src="https://kit.fontawesome.com/bc1bcbad31.js" crossorigin="anonymous"></script>
+      <!-- Google fonts link --->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Prompt&display=swap" rel="stylesheet">
+    </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+      <img src="images/Logo.png" alt="Logo" width="25" height="25"  class="d-inline-block align-text-top" >
+    <a class="navbar-brand" href="index.html">DIG</a>
+
+     <div class="input-group md-form form-sm form-2 pl-0">
+       <input class="form-control my-0 py-1 lime-border" type="text" placeholder="Search" aria-label="Search">
+       <div class="input-group-append">
+         <span class="input-group-text lime lighten-2" id="basic-text1"><i class="fas fa-search text-grey" aria-hidden="false"></i></span>
+       </div>
+     </div>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Nav1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="Nav1">
+       <ul class="navbar-nav ms-auto">
+         <li class="nav-item">
+           <a class="nav-link " aria-current="page" href="index.html">Home</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" href="shop2.html">Shop</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="tutorial.html">Tutorial</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="account.html"><i class="fas fa-user-circle"></i></a>
+         </li>
+
+     </div>
+    </nav>
+
+
+
+	<div class="cart-wrap">
+		<div class="container">
+	        <div class="row">
+			    <div class="col-md-12">
+			        <h2 style="color:green; text-align:center;">My wishlist</h2>
+			        <div class="table-wishlist">
+				        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+				        	<thead>
+					        	<tr>
+					        		<th width="45%">Product Name</th>
+					        		<th width="15%">Unit Price</th>
+					        		<th width="15%">Stock Status</th>
+					        		<th width="15%"></th>
+					        		<th width="10%"></th>
+					        	</tr>
+					        </thead>
+					        <tbody>
+					        	<tr>
+					        		<td width="45%">
+					        			<div class="display-flex align-center">
+		                                    <div class="img-product">
+		                                        <img src="images/clothes.jpeg" alt="" class="mCS_img_loaded">
+		                                    </div>
+		                                    <div class="name-product">
+		                                        Farm Coat
+		                                    </div>
+	                                    </div>
+	                                </td>
+					        		<td width="15%" class="price">Php110.00</td>
+					        		<td width="15%"><span class="in-stock-box">In Stock</span></td>
+					        		<td width="15%"><button class="round-black-btn small-btn">Add to Cart</button></td>
+					        		<td width="10%" class="text-center"><a href="#" class="trash-icon"><i class="far fa-trash-alt"></i></a></td>
+					        	</tr>
+					        	<tr>
+					        		<td width="45%">
+					        			<div class="display-flex align-center">
+		                                    <div class="img-product">
+		                                        <img src="images/corn.jpg" alt="" class="mCS_img_loaded">
+		                                    </div>
+		                                    <div class="name-product">
+		                                        Corn Plants
+		                                    </div>
+	                                    </div>
+	                                </td>
+					        		<td width="15%" class="price">Php110.00</td>
+					        		<td width="15%"><span class="in-stock-box">In Stock</span></td>
+					        		<td width="15%"><button class="round-black-btn small-btn">Add to Cart</button></td>
+					        		<td width="10%" class="text-center"><a href="#" class="trash-icon"><i class="far fa-trash-alt"></i></a></td>
+					        	</tr>
+					        	<tr>
+					        		<td width="45%">
+					        			<div class="display-flex align-center">
+		                                    <div class="img-product">
+		                                        <img src="images/Mallet.png" alt="" class="mCS_img_loaded">
+		                                    </div>
+		                                    <div class="name-product">
+		                                        Mallet
+		                                    </div>
+	                                    </div>
+	                                </td>
+					        		<td width="15%" class="price">Php110.00</td>
+					        		<td width="15%"><span class="in-stock-box">In Stock</span></td>
+					        		<td width="15%"><button class="round-black-btn small-btn">Add to Cart</button></td>
+					        		<td width="10%" class="text-center"><a href="#" class="trash-icon"><i class="far fa-trash-alt"></i></a></td>
+					        	</tr>
+				        	</tbody>
+				        </table>
+				    </div>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+
+    </body>
+  </html>

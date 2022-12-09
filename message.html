@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chat Box</title>
+
+    <!-- CSS link--->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap link--->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- fonts awesome link--->
+    <script src="https://kit.fontawesome.com/bc1bcbad31.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts link --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,600&family=Roboto+Serif:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,600&family=Roboto+Serif:wght@100&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:ital,wght@0,100;1,600&family=Roboto+Serif:wght@100&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+    <section id="title">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+        <img src="images/Logo.png" alt="Logo" width="25" height="25"  class="d-inline-block align-text-top" >
+      </a><a class="navbar-brand" href="index.html">DIG</a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Nav1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="Nav1">
+         <ul class="navbar-nav ms-auto">
+           <li class="nav-item">
+             <a class="nav-link " aria-current="page" href="index.html">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="shop.html">Shop</a>
+           </li>
+           <li class="nav-item active">
+             <a class="nav-link" href="#"><i class="fas fa-comments"></i></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+           </li>
+           <li class="nav-item active">
+             <a class="nav-link" href="#"><i class=" fas fa-user-circle"></i></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="settings.html"><i class="fas fa-cog"></i></a>
+           </li>
+       </div>
+     </nav>
+     <div class="time"><span>10:42</span></div>
+
+        <div class="message sol">
+          <div class="resim" style="background-image: url('https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-prn2/t1/1461137_576157439120105_582502926_n.jpg');"></div><div class="messageText" data-time="10:42">
+            thats ok
+          </div>
+        </div>
+        <div class="message sag mtLine">
+          <div class="messageText" data-time="10:43">
+            ok than
+          </div><div class="resim" style="background-image: url('https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-prn2/t1/1393075_669686723071617_1541630705_n.jpg');"></div>
+        </div>
+        <div class="message sol mtLine">
+          <div class="resim" style="background-image: url('https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-frc3/t1/q71/1422532_452755621503523_1504727417_n.jpg');"></div><div class="messageText" data-time="10:45">
+            are you sure
+          </div>
+        </div>
+        <div class="message sol">
+          <div class="resim" style="background-image: url('https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-prn2/1395115_368377233300847_323365594_n.jpg');"></div><div class="messageText" data-time="10:45">
+            yeah are you sure man?
+          </div>
+        </div>
+        <div class="message sol mtLine">
+          <div class="resim" style="background-image: url('https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-prn2/t1/1461137_576157439120105_582502926_n.jpg');"></div><div class="messageText" data-time="10:58">
+            yeah im totally sure.
+          </div>
+        </div>
+        <div class="message sol">
+          <div class="resim" style="background-image: url('https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-frc1/1601244_265297516958879_798390578_n.png');"></div><div class="messageText" data-time="11:01">
+            hey whats going on?
+          </div>
+        </div>
+
+
+
+        <script>
+        // (A) ALERT
+        function demoA () { alert("Message"); }
+
+        // (B) CONFIRM
+        function demoB () {
+          if (confirm("Continue?")) { alert("Yes"); }
+        }
+
+        // (C) PROMPT
+        function demoC () {
+          var name = prompt("Enter Your Name", "Jon");
+          alert("Your name is " + name);
+        }
+        </script>
+
+        <!-- (D) TEST BUTTONS -->
+        <input type="button" value="Alert" onclick="demoA()"/>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,833 @@
+
+#title {
+
+    background-image:url('images/bgko.jpg');
+    background-size: cover;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color:darkgreen;
+padding:8% 16%;
+}
+
+
+h1 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 7rem;
+  color:darkgreen;
+  line-height: 1.5;
+
+}
+h2{
+
+}
+h3 {
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+width: 100%;
+}
+
+/* Download Buttons */
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+font-family: 'Kanit', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+margin-left: 1%;
+  color:green;
+}
+
+.nav-item {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+margin: 0;
+color:white;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: green;
+font-family: 'Kanit', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.navbar {
+  margin:0;
+}
+
+.container {
+margin-top: 5px;
+  padding: 8% 16%;
+  text-align: center;
+
+}
+
+p {
+  text-align: center;
+  line-height: 1.5;
+
+}
+
+.titleBG{
+  width: 100%;
+  height: 100px;
+  margin: 0;
+}
+.col-lg-6{
+  padding:5px;
+  text-align:center;
+}
+/* Media query for features section */
+/* Features Section */
+#features {
+    margin: 0;
+    padding: 7% 15%;
+}
+
+.f-container {
+  background: white;
+  padding: 8% 16%;
+  width: 100%;
+  border-radius: 20%;
+}
+.f2-container {
+  background: lightgreen;
+  padding: 8% 16%;
+  width: 100%;
+  border-radius: 20%;
+}
+
+.f-box {
+  text-align: center;
+  padding: 5%;
+}
+
+#icon {
+  color: #a55233;
+  margin-bottom: 1rem;
+}
+
+#icon:hover {
+  color: #1d1716;
+}
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  #icon {
+    font-size:3rem;
+    color: green;
+  }
+}
+
+.ttext1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+  .titleimage{
+    text-align: center;
+    padding: 7% 10%;
+    height: 300px;
+    width: 300px;
+  }
+  .titleimage2{
+    text-align: center;
+    padding: 0 10%;
+    height: 40%;
+    width: 60%;
+/* Media Query */
+@media (max-width: 1028px; ) {
+  h2 {
+    font-size: 40px;
+  }
+
+}
+
+#testimonials {
+  text-align: center;
+  background: linear-gradient(270deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+  color: white;
+  padding: 7% 15%;
+    margin: 0;
+}
+
+.testimonial-photo {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.carousel-item {
+  line-height: 1.5rem;
+  padding: 7% 15%;
+}
+
+/* Footer Section */
+#footer {
+    margin: 0;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.p-footer {
+  color: white;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.icon-footer {
+  margin-top: 3%;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+.icon-footer:hover {
+  color: gray;
+}
+
+.Logo-footer {
+  font-family: 'Redressed';
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-img {
+  background: linear-gradient(270deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+  width: 100%;
+  height: 250px;
+    margin: 0;
+}
+.footer-container{
+  padding: 1% 10%;
+  margin-bottom: 0;
+  background-color: black;
+  line-height: 1;
+}
+.f{
+  text-align: left;
+  line-height: 1;
+}
+.footer-col{
+  padding: 50px;
+  line-height: 1;
+}
+.p{
+  text-align: center;
+  line-height: 1;
+}
+h5{
+  font-weight: bolder;
+  text-align: left;
+}
+hr{
+  text-align: center;
+  height:2px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Media query for Footer Section */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #Footer{
+    font-size: .2rem;
+background-color: green;
+  }
+  .icon-footer{
+    font-size: .2rem;
+  }
+
+  .footer-container{
+    padding: 5px;
+    height: 100px;
+    width:100%;
+    line-height: .875rem;
+    margin:0;
+      background-color: green;
+  }
+  .footer-col{
+    padding: 2% 7%;
+  }
+  h5{
+    font-size: .5rem;
+  }
+  .p{
+    font-size: .5rem;
+    line-height: 1;
+  }
+
+.f{
+  font-size: .5rem;
+  line-height: 1;
+}
+.Logo-footer {
+font-size: 5px;
+}
+.p-footer{
+  font-size: .5rem;
+}
+}
+
+
+/*Shop Caruosel*/
+#Featured {
+  background-color: green;
+  margin: 0;
+    text-align: center;
+  }
+
+  .Featured-photo {
+    width: 100%;
+    height:250px;
+    margin:0;
+  }
+
+
+  .carousel-item {
+    padding: 2%;
+  }
+
+}
+/* Category */
+#Category{
+  margin: 0;
+  padding-top: 0 ;
+  padding-bottom: 0;
+  padding-left:2px;
+  padding-right: 2px;
+}
+.text-center{
+  padding: 0;
+  margin:0;
+}
+.btn-rounded{
+  text-align: center;
+  margin-left: 40px;
+}
+/* top pick */
+/* Pricing Section */
+#top-pick {
+  background-color: lightgreen;
+  padding: 7% 15%;
+  text-align: center;
+    margin:0;
+    color: white;
+}
+.col-lg-8{
+  margin:0;
+  padding: 3px;
+}
+.product{
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  position: relative;
+
+}
+.p-product{
+  line-height: .2rem;
+  font-size: .6rem;
+  color: black;
+}
+.p-product2{
+  line-height: .2rem;
+  font-size: .6rem;
+
+}
+/* Recommended */
+#Recommended{
+  margin-top: 10%;
+padding-bottom: 3%;
+}
+.sec-row{
+  margin-top:20px;
+}
+
+
+.cta{
+  margin:0;
+}
+
+
+/* Form */
+.form-signIn{
+  text-align: center;
+  padding: 14% 30%;
+  margin: 0;
+  line-height: 3rem;
+}
+.titleimage-SI{
+  width: 200px;
+  height:200px;
+  text-align:center;
+
+}
+
+
+
+/* Tutorial */
+
+.container-Tutorial{
+  padding: 7% 15%;
+}
+.Container-about{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 0;
+  margin:0;
+}
+.p-tutorial{
+  color:black;
+  text-align: justify;
+}
+.vid-h3{
+  text-align: center;
+  color:black;
+  weight: bold;
+}
+.video{
+  margin-top: 5%;
+  align-content: center;
+}
+.about-h3{
+  color: black;
+}
+.about-p{
+  color: black;
+}
+
+
+
+
+/* signIn */
+.signin-img{
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+.form-signIn{
+  text-align: center;
+  padding: 10% 30%;
+
+}
+
+
+/* Account */
+#Account{
+  background-color: green;
+color: white;
+margin: 0;
+padding: 7% 15%;
+}
+#account-button{
+padding: 7% 15%;
+margin: 0;
+}
+.container-acc{
+  margin: 0;
+  border: 2px;
+  background-color: green;
+  border-radius: 30%;
+  padding: 10% 15%;
+  text-align: center;
+}
+
+
+#nav-account{
+  background-color: #004D25;
+  padding-bottom: 0 2px;
+  margin:0;
+}
+
+#scrollspyHeading1{
+  color: green;
+}
+#scrollspyHeading2{
+  color: green;
+}
+#scrollspyHeading3{
+  color: green;
+}
+#scrollspyHeading4{
+  color: green;
+}
+.a-acc{
+  color: green;
+}
+.aa{
+  color: green;
+}
+
+/* ----- Variables ----- */
+/* ----- Global ----- */
+* {
+  box-sizing: border-box;
+}
+
+
+
+img {
+  max-width: 100%;
+  filter: drop-shadow(1px 1px 3px #a6a6a6);
+}
+
+/* ----- Product Section ----- */
+.product1 {
+  display: grid;
+  grid-template-columns: 0.9fr 1fr;
+  margin: auto;
+  padding: 2.5em 0;
+  min-width: 600px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* ----- Photo Section ----- */
+.product__photo {
+  position: relative;
+
+}
+
+.photo-container {
+  position: absolute;
+  left: -2.5em;
+  display: grid;
+  grid-template-rows: 1fr;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  box-shadow: 4px 4px 25px -2px rgba(0, 0, 0, 0.3);
+}
+
+.photo-main {
+  border-radius: 6px 6px 0 0;
+  background-color: #9be010;
+  background: radial-gradient(#e5f89e, #96e001);
+}
+.photo-main .controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8em;
+  color: #fff;
+}
+.photo-main .controls i {
+  cursor: pointer;
+}
+.photo-main img {
+  position: absolute;
+  left: -3.5em;
+  top: 2em;
+  max-width: 110%;
+  filter: saturate(150%) contrast(120%) hue-rotate(10deg) drop-shadow(1px 20px 10px rgba(0, 0, 0, 0.3));
+}
+
+.photo-album {
+  padding: 0.7em 1em;
+  border-radius: 0 0 6px 6px;
+  background-color: #fff;
+}
+.photo-album ul {
+  display: flex;
+  justify-content: space-around;
+}
+.photo-album li {
+  float: left;
+  width: 55px;
+  height: 55px;
+  padding: 7px;
+  border: 1px solid #a6a6a6;
+  list-style: none;
+
+  border-radius: 3px;
+}
+
+/* ----- Informations Section ----- */
+.product__info {
+  padding: 0.8em 0;
+}
+
+.title h1 {
+  margin-bottom: 0.1em;
+  color: #4c4c4c;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.title span {
+  font-size: 0.7em;
+  color: #a6a6a6;
+}
+
+.price {
+  margin: 1.5em 0;
+  color: #ff3f40;
+  font-size: 1.2em;
+}
+.price span {
+  padding-left: 0.15em;
+  font-size: 2.9em;
+}
+
+.variant {
+  overflow: auto;
+}
+.variant h3 {
+  margin-bottom: 1.1em;
+}
+.variant li {
+  float: left;
+  width: 35px;
+  height: 35px;
+  padding: 3px;
+  margin-left: -30px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.variant li:first-child, .variant li:hover {
+  list-style: none;
+  border: 1px solid #a6a6a6;
+}
+.variant li:not(:first-child) {
+  margin-left: 0.1em;
+}
+
+.description {
+  clear: left;
+  margin: 2em 0;
+}
+.description h3 {
+  margin-bottom: 1em;
+}
+.description ul {
+  font-size: 0.8em;
+  list-style: disc;
+  margin-left: -10px;
+}
+.description li {
+  text-indent: -0.6em;
+  margin-bottom: 0.5em;
+}
+
+.buy--btn {
+  padding: 1.5em 3.1em;
+  border: none;
+  border-radius: 7px;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  color: #fff;
+  background-color: green;
+  box-shadow: 2px 2px 25px -7px #4c4c4c;
+  cursor: pointer;
+}
+
+.buy--btn:active {
+  transform: scale(0.97);
+}
+.share{
+  padding:20px;
+  background-color: red;
+
+/* ----- Select dropdown ----- */
+.select-dropdown,
+.select-dropdown * {
+ margin: 0;
+ padding: 0;
+ position: relative;
+ box-sizing: border-box;
+}
+.select-dropdown {
+ position: relative;
+ background-color: #E6E6E6;
+ border-radius: 4px;
+}
+.select-dropdown select {
+ font-size: 1rem;
+ font-weight: normal;
+ max-width: 100%;
+ padding: 8px 24px 8px 10px;
+ border: none;
+ background-color: transparent;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+ appearance: none;
+}
+.select-dropdown select:active, .select-dropdown select:focus {
+ outline: none;
+ box-shadow: none;
+}
+.select-dropdown:after {
+ content: "";
+ position: absolute;
+ top: 50%;
+ right: 8px;
+ width: 0;
+ height: 0;
+ margin-top: -2px;
+ border-top: 5px solid #aaa;
+ border-right: 5px solid transparent;
+ border-left: 5px solid transparent;
+}
+
+.btn-check{
+  text: center;
+  text-align: center;
+}
+
+.container-success{
+  padding: 7% 15%;
+text-align: center;
+background-color: green;
+margin-top: 5%;
+}
+
+#check{
+  color: green;
+  text-align: center;
+
+}
+
+
+ {
+  outline: 0;
+}
+
+.time {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.time span {
+  background-color: #000000;
+  display: inline-block;
+  border-radius: 3px;
+  text-align: center;
+  padding: 2px 20px;
+  color: #fff;
+  opacity: 0.3;
+}
+.message {
+  margin-bottom: 10px;
+}
+.message .messageText {
+  text-align: left;
+  color: #FFFFFF;
+}
+.message.sol {
+  text-align: left;
+}
+.message.sag {
+  text-align: right;
+}
+.message .resim {
+  background: #FF0044 none no-repeat center;
+  vertical-align: text-top;
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+  color: #FFFFFF;
+  height: 40px;
+  width: 40px;
+}
+.message .messageText {
+  background-color: #FF0044;
+  vertical-align: text-top;
+  display: inline-block;
+  position: relative;
+  line-height: 20px;
+  max-width: 165px;
+  color: #FFFFFF;
+  padding: 10px;
+}
+.message.left .userPortrait,
+.message.sag .messageText {
+  border-radius: 5px 0 0 5px;
+}
+.message.sag .userPortrait,
+.message.sol .messageText {
+  border-radius: 0 5px 5px 0;
+}
+.message.mtLine.sol .messageText {
+  border-radius: 0 5px 5px 0;
+}
+.message.mtLine.sag .messageText {
+  border-radius: 5px 0 0 5px;
+}
+.message .messageText:before {
+  border-color: transparent #FF0044;
+  border-style: solid;
+  position: absolute;
+  border-width: 0;
+  display: block;
+  content: "";
+  z-index: 1;
+}
+.message.sol .messageText:before {
+  border-width: 0 10px 10px 0;
+  left: -10px;
+  top: 0;
+}
+.message.sag .messageText:before {
+  border-width: 10px 0 0 10px;
+  right: -10px;
+  top: 30px;
+}
+.message .messageText:after {
+  content: attr(data-time);
+  color: rgba(255,255,255,0.5);
+  position: absolute;
+  line-height: 20px;
+  display: block;
+  bottom: 2px;
+  z-index: 1;
+}
+.message.sol .messageText:after {
+  margin-left: 5px;
+  left: 100%;
+}
+.message.sag .messageText:after {
+  margin-right: 5px;
+  right: 100%;
+}
+
+
+.container-shop{
+  padding: 7% 15%;
+  background-color: green;
+}
+h3{
+  color: green;
+}
+#product-po{
+  padding: 7% 15%;
+  margin:0;
+}
+
+
+#Offer{
+  text-align: center;
+  padding: 8% 16%;
+  color: green;
+}
+.card-container{
+  padding: 7% 15%;
+}
